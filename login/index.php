@@ -3,7 +3,7 @@
 	if(isset($_POST['username'],$_POST['password'])){
 		$user = array(
 						"user" => "admin",
-						"pass"=>"15C11R2019"			
+						"pass"=>"admin"			
 				);
 		$username = $_POST['username'];
 		$pass = $_POST['password'];
