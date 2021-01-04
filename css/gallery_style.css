@@ -1,0 +1,57 @@
+.gallery_container{
+	overflow: auto;
+	width:100%;
+	text-align:center;
+	padding:0px 0px 20px;
+	background-color:#eee;
+}
+
+.gallery_container2{
+	overflow: auto;
+	width:100%;
+	text-align:center;
+	padding:0px 0px 20px;
+}
+
+.gallery_row {
+width:100%;
+margin:1% 4%;
+}
+
+.gallery_column {
+	width:46%;
+	float:left;
+	padding:0% 2%;
+}
+	
+.gallery_img {
+	width:100%;
+}
+.class_hr {
+	margin-top:20px;
+	clear: left;
+}
+.gallery_naslov {
+	text-align:center;
+	width:100%;
+	margin:20px 0px;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+.gallery_container{
+	padding:0px;
+}
+
+.gallery_column {
+	width:92%;
+}
+.gallery_img {
+	margin-bottom:15px;
+}
+	
+	
+}
